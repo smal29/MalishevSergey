@@ -1,0 +1,103 @@
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: black;
+    color:white;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+.name{
+    text-transform: uppercase;
+}
+
+.headblock p{
+    text-align: center;
+    margin-inline: 20rem;
+}
+.headblock h1{
+    text-align: center;
+}
+.headblock h2{
+    text-align: center;
+}
+.headblock .btn p{
+    text-align: center;
+}
+
+.btn p{
+
+    text-align: center;
+}
+
+.container{
+    max-width: 75%;
+    margin: auto;
+}
+
+.navigator{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px 0; /*Внутренний отступ, первое значение - сверху и cнизу, второе - слева и справа*/
+}
+
+.navigator a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.navigator a:hover{/*Меняет цвет при наведении на*/
+    transition: color 0.5s; /*время анимации*/
+    color:rgb(19, 182, 231);
+    }
+
+main p{
+    text-align: justify;
+}
+
+.avatar{
+    height: 350px;
+    text-align: center;
+    margin: 3rem 0;
+    background-image: url(../images/background1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar img{
+    height: 100%;
+}
+
+.btn{
+    text-decoration: none;
+    color: rgb(115, 138, 227);
+    font-weight: bold;
+    border: 2px solid rgb(115, 138, 227);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 2.5rem;
+
+}
+
+.contact_btn{
+    color: white;
+    border-color: white;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    margin-top: 2rem;
+
+}
